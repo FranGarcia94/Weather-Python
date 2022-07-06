@@ -4,7 +4,7 @@
 wttr.in is a free service that is under development but has gained a lot of relevance. We are going to see how to get data from this service, since, apart from getting them directly from the web, we can work with them and print them on the console.
 
 ## Formats
-If we look at the official [wttr.in documentation](https://github.com/chubin/wttr.in) we see that we can get the output data in different formats, here is an example of some of them, obtained by running the wttr_2 file:
+If we look at the official [wttr.in documentation](https://github.com/chubin/wttr.in) we see that we can get the output data in different formats, here is an example of some of them, obtained by running the [wttr_2](https://github.com/FranGarcia94/Weather-Python/blob/main/WTTR/wttr_2.py) file:
 
 **Format 1:** ☀️   +21°C
 
@@ -28,7 +28,7 @@ Special mention for the following format with graphics included.
 
 However, we will work with the json format.
 
-To visualise how to access each data click [here](https://wttr.in/nemours?format=j1). This makes it easier to know which index the data correspond to.
+To visualise how to access each data click [here](https://wttr.in/paris?format=j1). This makes it easier to know which index the data correspond to.
 
 For example, to get the temperature in Celsius:
 ```python
@@ -54,4 +54,4 @@ When you run the code you get:
 |---------|--------------|---------------|---------------------|--------------|------------|------------|--------------------|
 | Paris   | 21 ºC        | Clear         | 05:55 AM - 09:56 PM | 9 km/h       | 60 %       | 6/10       | 08:56 PM           |
 
-This is just an example to visualize the data, however, we can use each of the isolated data for different functions.
+This is just an example to visualize the data of Paris, however, we can use each of the isolated data for different functions.
