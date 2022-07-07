@@ -1,5 +1,5 @@
 # WTTR
-
+![python](https://img.shields.io/badge/Python-blueviolet?style=plastic&logo=python&logoColor=FFD43B)
 
 wttr.in is a free service that is under development but has gained a lot of relevance. We are going to see how to get data from this service, since, apart from getting them directly from the web, we can work with them and print them on the console.
 
