@@ -22,7 +22,7 @@ url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&units=metric&AP
 response = requests.get(url)
 data = json.loads(response.text)
 
-datas=[]
+data_2=[]
 
 
 # Variables
@@ -54,10 +54,10 @@ hora=datetime.utcfromtimestamp(int(data['dt'])).strftime('%H:%M:%S')            
 name=data['name']                           # Name of the place
 
 
-datas.append([name, str(temp) + ' ºC', desc, sunrise + ' - ' + sunset, str(wind) + ' km/h', str(clouds) + ' %', str(humidity) + ' %', str(tempmax) +' - '+ str(tempmin), hora])
+data_2.append([name, str(temp) + ' ºC', desc, sunrise + ' - ' + sunset, str(wind) + ' km/h', str(clouds) + ' %', str(humidity) + ' %', str(tempmax) +' - '+ str(tempmin), hora])
 
 
-# Print datas with a 'github' format.
+# Print data with a 'github' format.
 
-print(tabulate(datas, headers=[ 'City', 'Temp. (ºC)', 'Description', 'Sunrise - Sunset', 'Wind Speed', 'Clouds', 'Humidity', 'T.Max - T.Min', 'Measurement Time'],tablefmt="github"))
+print(tabulate(data_2, headers=[ 'City', 'Temp. (ºC)', 'Description', 'Sunrise - Sunset', 'Wind Speed', 'Clouds', 'Humidity', 'T.Max - T.Min', 'Measurement Time'],tablefmt="github"))
 
