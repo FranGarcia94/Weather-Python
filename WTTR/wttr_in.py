@@ -26,19 +26,19 @@ json_format = res.json()
 
 temp=json_format["current_condition"][0]['temp_C']                          # Temperature in Celsius
 
-desc=json_format["current_condition"][0]['weatherDesc'][0]["value"]         # Weather description
+desc=json_format["current_condition"][0]['weatherDesc'][0]["value"]         
 
-hour_of_data=json_format["current_condition"][0]['observation_time']        # Requests time
+hour_of_data=json_format["current_condition"][0]['observation_time']        
 
-hour_of_request=json_format["current_condition"][0]['localObsDateTime']     # Observation data time
+hour_of_request=json_format["current_condition"][0]['localObsDateTime']     
 
-sunrise=json_format["weather"][0]["astronomy"][0]['sunrise']                # Sunrise
+sunrise=json_format["weather"][0]["astronomy"][0]['sunrise']                
 
-sunset=json_format["weather"][0]["astronomy"][0]['sunset']                  # Sunset
+sunset=json_format["weather"][0]["astronomy"][0]['sunset']                  
 
-wind_speed=json_format["current_condition"][0]["windspeedKmph"]             # Wind speed
+wind_speed=json_format["current_condition"][0]["windspeedKmph"]             
 
-humidity=json_format["current_condition"][0]["humidity"]                    # Humidity
+humidity=json_format["current_condition"][0]["humidity"]                    
 
 uv_index=json_format["current_condition"][0]["uvIndex"]                     # UV Index (1-10)
 
