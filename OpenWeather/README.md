@@ -1,4 +1,5 @@
 # Openweather
+![python](https://img.shields.io/badge/Python-blueviolet?style=plastic&logo=python&logoColor=FFD43B)
 
 Openweather is an online service that allows you to access a multitude of weather data both through its website and through its API.
 
