@@ -42,10 +42,10 @@ humidity=json_format["current_condition"][0]["humidity"]                    # Hu
 
 uv_index=json_format["current_condition"][0]["uvIndex"]                     # UV Index (1-10)
 
-datas=[]
+data_2=[]
 
-datas.append([place, temp + ' ºC', desc, sunrise + ' - ' + sunset, wind_speed + ' km/h', humidity + ' %', uv_index + '/10', hour_of_data])
+data_2.append([place, temp + ' ºC', desc, sunrise + ' - ' + sunset, wind_speed + ' km/h', humidity + ' %', uv_index + '/10', hour_of_data])
 
-# Print datas with a 'github' format.
-print(tabulate(datas, headers = [ 'Place', 'Temp. (ºC)', 'Description', 'Sunrise - Sunset', 'Wind Speed', 'Humidity', 'UV Index', 'Measurement Time'],tablefmt="github"))
+# Print data with a 'github' format.
+print(tabulate(data_2, headers = [ 'Place', 'Temp. (ºC)', 'Description', 'Sunrise - Sunset', 'Wind Speed', 'Humidity', 'UV Index', 'Measurement Time'],tablefmt="github"))
 
