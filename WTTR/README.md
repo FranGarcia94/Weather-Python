@@ -1,5 +1,6 @@
 # WTTR
 ![python](https://img.shields.io/badge/Python-blueviolet?style=plastic&logo=python&logoColor=FFD43B)
+![](https://badge-size.herokuapp.com/FranGarcia94/Weather-Python/main/WTTR/wttr_in.py)
 
 :sunny: :cloud: :snowflake:
 
