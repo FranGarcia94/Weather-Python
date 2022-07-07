@@ -29,29 +29,29 @@ data_2=[]
 
 weather=data['weather'][0]['main']          # Short weather description
 
-desc=data['weather'][0]['description']      # Weather description
+desc=data['weather'][0]['description']      
 
-temp = data['main']['temp']                 # Temperature
+temp = data['main']['temp']                 
 
-tempmax = data['main']['temp_max']          # Maximum recorded temperature value in a short period of time
+tempmax = data['main']['temp_max']          
 
-tempmin = data['main']['temp_min']          # Minimun recorded temperature value in a short period of time
+tempmin = data['main']['temp_min']          
 
-feel_like = data['main']['feels_like']      # Feel like temperature
+feel_like = data['main']['feels_like']      
 
-humidity = data['main']['humidity']         # Humidity
+humidity = data['main']['humidity']         
 
-wind = data['wind']['speed']                # Wind speed
+wind = data['wind']['speed']                
 
-clouds = data['clouds']['all']              # Percentage of clouds
+clouds = data['clouds']['all']              
 
-sunrise = datetime.utcfromtimestamp(int(data['sys']['sunrise'])).strftime('%H:%M:%S') # Sunrise time
+sunrise = datetime.utcfromtimestamp(int(data['sys']['sunrise'])).strftime('%H:%M:%S') 
 
-sunset = datetime.utcfromtimestamp(int(data['sys']['sunset'])).strftime('%H:%M:%S')   # Sunset time
+sunset = datetime.utcfromtimestamp(int(data['sys']['sunset'])).strftime('%H:%M:%S')   
 
-hora=datetime.utcfromtimestamp(int(data['dt'])).strftime('%H:%M:%S')                  # Data recording time
+hora=datetime.utcfromtimestamp(int(data['dt'])).strftime('%H:%M:%S')                  
 
-name=data['name']                           # Name of the place
+name=data['name']                           
 
 
 data_2.append([name, str(temp) + ' ºC', desc, sunrise + ' - ' + sunset, str(wind) + ' km/h', str(clouds) + ' %', str(humidity) + ' %', str(tempmax) +' - '+ str(tempmin), hora])
