@@ -81,7 +81,7 @@ def wb():
         data_2.append([city[i], str(temp[i]) + ' ºC', desc[i], sunrise[i] + ' - ' + sunset[i], wind_speed[i], humidity[i], uv_index[i], hour[i]])
 
 
-    # Print data_2 with a 'github' format.
+    # Print data with a 'github' format.
     
     print(tabulate(data_2, headers = [ 'City', 'Temperature', 'Description', 'Sunrise - Sunset', 'Wind Speed', 'Humidity', 'UV Index', 'Measurement Time'],tablefmt="github"))
 
