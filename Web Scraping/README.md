@@ -1,6 +1,7 @@
 # WEB SCRAPING
 ![python](https://img.shields.io/badge/Python-blueviolet?style=plastic&logo=python&logoColor=FFD43B)
 ![python](https://img.shields.io/badge/WebScraping-red?style=plastic)
+![](https://badge-size.herokuapp.com/FranGarcia94/Weather-Python/main/Web%20Scraping/web_scraping.py)
 
 :sunny: :cloud: :snowflake:
 
