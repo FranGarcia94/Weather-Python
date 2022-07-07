@@ -1,5 +1,6 @@
 # WEB SCRAPING
 ![python](https://img.shields.io/badge/Python-blueviolet?style=plastic&logo=python&logoColor=FFD43B)
+![python](https://img.shields.io/badge/WebScraping-red?style=plastic)
 
 :sunny: :cloud: :snowflake:
 
