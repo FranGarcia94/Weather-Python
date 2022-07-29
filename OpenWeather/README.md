@@ -8,7 +8,7 @@ Openweather is an online service that allows you to access a multitude of weathe
 
 This service has various payment options that allow you to access a greater amount of data and continuously, however, it has a free API with more than enough data for this topic.
 
-## Registrarse
+## Check in
 In order to make use of this API it is necessary to register in [openweathermap](https://openweathermap.org/), choose the free plan (Obviously, you can pay for any other plan and access much more data) and obtain an API key to be able to make requests.
 
 ## Proccess
