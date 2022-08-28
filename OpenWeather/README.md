@@ -1,6 +1,7 @@
 # Openweather
 ![python](https://img.shields.io/badge/Python-blueviolet?style=plastic&logo=python&logoColor=FFD43B)
 ![](https://badge-size.herokuapp.com/FranGarcia94/Weather-Python/main/OpenWeather/openweather.py)
+![python](https://img.shields.io/badge/OpenWeather-black?style=plastic&logo=OpenStreetMap&logoColor=orange)
 
 :sunny: :cloud: :snowflake:
 
